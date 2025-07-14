@@ -1,0 +1,16 @@
+# Node modules
+/FrontendTestSubmission/node_modules/
+ /BackendTestSubmission/node_modules/
+
+# React build output
+/FrontendTestSubmission/build/
+
+# Environment variables
+/client/.env
+/BackendTestSubmission/.env
+
+# Logs
+*.log
+
+#DS Store
+.DS_Store
