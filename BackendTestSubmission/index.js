@@ -2,8 +2,15 @@ const express = require("express");
 const cors = require("cors");
 require("dotenv").config();
 
+const {
+  createLoggingMiddleware,
+} = require("./LogginMiddleWare/logginMiddleware");
+
+const logginMiddleware = createLoggingMiddleware("backend-package", "info");
+
 const app = express();
 
+app.use(logginMiddleware);
 const PORT = process.env.PORT;
 const urlShortRouter = require("./routes/urlShortRouter");
 
