@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className="h-[8vh] bg-zinc-300 flex items-center px-10">
+    <nav className="h-[8vh] bg-zinc-300 flex items-center px-10 w-full">
       <h1 className="text-2xl">Url-Shortner</h1>
     </nav>
   );
