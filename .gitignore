@@ -1,6 +1,6 @@
 # Node modules
 /FrontendTestSubmission/node_modules/
- /BackendTestSubmission/node_modules/
+/BackendTestSubmission/node_modules/
 
 # React build output
 /FrontendTestSubmission/build/
